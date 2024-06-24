@@ -8,6 +8,7 @@ import Heading from "./components/Heading";
 import MealsProvider from "./providers/MealsProvider";
 import MealsList from "./components/MealsList";
 import Counterm from "./components/Counterm";
+import Wallet from "./components/Wallet";
 import './App.css';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
              <Counterm />
           </MealsProvider>
         </div>
+        <Wallet />
       </div>
       </div>
 
