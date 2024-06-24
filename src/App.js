@@ -9,6 +9,7 @@ import MealsProvider from "./providers/MealsProvider";
 import MealsList from "./components/MealsList";
 import Counterm from "./components/Counterm";
 import Wallet from "./components/Wallet";
+import Video from "./components/Video";
 import './App.css';
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           </MealsProvider>
         </div>
         <Wallet />
+        <Video />
       </div>
       </div>
 
