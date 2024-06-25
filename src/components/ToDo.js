@@ -29,7 +29,7 @@ function ToDo(){
     }
     return (
         <div className='card'>
-            <h1>Using keys within list componetns</h1>
+            <h1>Using keys within list components</h1>
             <table>
                 <tbody>
                     {todos.map((todo, index) => (<Do key={todo.id} id={todo.id} createdAt={todo.createdAt} />))}
