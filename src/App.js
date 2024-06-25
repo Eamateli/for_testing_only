@@ -10,6 +10,7 @@ import MealsList from "./components/MealsList";
 import Counterm from "./components/Counterm";
 import Wallet from "./components/Wallet";
 import Video from "./components/Video";
+import ToDo from "./components/ToDo";
 import './App.css';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         </div>
         <Wallet />
         <Video />
+        <ToDo />
       </div>
       </div>
 
