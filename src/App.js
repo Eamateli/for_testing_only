@@ -14,6 +14,7 @@ import ToDo from "./components/ToDo";
 import Form1 from "./components/Form1";
 import Form2 from "./components/Form2";
 import LightDark from "./components/LightDark"
+import Goals from "./components/Goals";
 import './App.css';
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
         <Form1 />
         <Form2 />
         <LightDark />
+        <Goals />
       </div>
       </div>
 
